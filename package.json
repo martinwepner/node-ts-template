@@ -1,0 +1,26 @@
+{
+	"name": "ts-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.ts",
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "tsc --build --watch tsconfig.json",
+		"start": "node dist/index.js",
+		"prettier": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/martinwepner/node-ts-template.git"
+	},
+	"author": "Martin Wepner",
+	"license": "SEE LICENSE IN LICENSE",
+	"bugs": {
+		"url": "https://github.com/martinwepner/node-ts-template/issues"
+	},
+	"homepage": "https://github.com/martinwepner/node-ts-template#readme",
+	"devDependencies": {
+		"prettier": "^2.0.4",
+		"typescript": "^3.8.3"
+	}
+}
